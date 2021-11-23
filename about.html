@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <title>Om oss</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="navHeader">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="dropdownNav">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="event-list.html">Eventlista</a></li>
+                <li><a href="event-form.html">Lägg till event</a></li>
+                <li><a href="#"><i>Om oss</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content-container">
+        <div class="content">
+            <h2>Om oss</h2>
+            <div class="section">
+                <h3>Om företaget</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi maiores error, ipsam
+                    culpa
+                    reprehenderit neque officia molestias sequi rem quaerat natus necessitatibus enim adipisci
+                    doloremque
+                    cumque odit aliquam itaque.</p>
+            </div>
+
+            <div class="section">
+                <h3>Om teamet</h3>
+                <div class="team-images">
+                    <div class="staff-container">
+                        <div class="image" style="background-image: url('./images/staff.jpg');"></div>
+                        <p>Mattias Söderberg</p>
+                        <p>Event Manager</p>
+                    </div>
+                    <div class="staff-container">
+                        <div class="image" style="background-image: url('./images/staff.jpg');"></div>
+                        <p>Mattias Söderberg</p>
+                        <p>Account Manager</p>
+                    </div>
+                    <div class="staff-container">
+                        <div class="image" style="background-image: url('./images/staff.jpg');"></div>
+                        <p>Mattias Söderberg</p>
+                        <p>Head of Finance</p>
+                    </div>
+                    <div class="staff-container">
+                        <div class="image" style="background-image: url('./images/staff.jpg');"></div>
+                        <p>Mattias Söderberg</p>
+                        <p>CTO</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe illo provident a officia modi fugit
+                    quibusdam corporis, nesciunt voluptatibus quaerat voluptatum iusto vero impedit ad ipsam doloremque,
+                    quia nemo reiciendis?</p>
+                <div class="staff-container">
+                    <img src="./images/team.jpg" alt="Bild på teamet">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis odit ut vero molestias aspernatur
+                    nihil quod similique dicta, quae quo deleniti accusantium cupiditate illum laboriosam ipsum
+                    temporibus quasi dolorem obcaecati?
+                    Provident molestias velit officia distinctio odit ratione facere assumenda omnis vitae facilis.
+                    Reprehenderit temporibus obcaecati nihil dolorem impedit, qui nam suscipit, debitis distinctio saepe
+                    velit laborum rem non rerum facilis.</p>
+            </div>
+
+            <div class="section">
+                <h3>Info från VD</h3>
+                <div class="image" style="background-image: url('./images/staff.jpg');"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum veniam repellat ducimus tempora
+                    asperiores illum neque laudantium tempore repellendus animi in, esse cum explicabo consectetur
+                    nobis.
+                    Quos ipsam est rem.</p>
+                    <h4>Kontaktuppgifter till VD</h4>
+                    <p>Telefon: <a href="tel:0701234567">070-123 45 67</a></p>
+                    <p>Email: <a href="mailto:vd@roligaevent.se">vd@roligaevent.se</a></p>
+            </div>
+
+            <div class="section">
+                <h3>Kontakta oss</h3>
+                <form action="" class="form" id="contactForm">
+                    <div>
+                        <label for="name">Namn</label>
+                        <input type="text" id="name" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" class="submitButton" id="submitContactForm" value="Skicka" />
+                </form>
+                <div class="successMessage">
+                    Tack för ditt meddelande. Vi återkopplar så fort vi kan.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

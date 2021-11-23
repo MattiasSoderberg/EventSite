@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <title>Lägg till event</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="navHeader">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="dropdownNav">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="event-list.html">Eventlista</a></li>
+                <li><a href="event-form.html"><i>Lägg till event</i></a></li>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content-container">
+        <div class="content">
+            <h2>Lägg till nytt event</h2>
+
+            <form action="" class="form">
+                <div>
+                    <label for="name">Namn</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="date">Datum</label>
+                    <input type="date" id="date" />
+                </div>
+                <div>
+                    <label for="description">Beskrivning</label>
+                    <textarea id="description"></textarea>
+                </div>
+                <div>
+                    <label for="agenda">Agenda</label>
+                    <textarea id="agenda"></textarea>
+                </div>
+                <div class="img-input">
+                    <label for="images">Bilder</label>
+                    <div>
+                        <input type="file">
+                        <input type="file">
+                        <input type="file">
+                        <input type="file">
+                    </div>
+                </div>
+                <div>
+                    <label for="cat">Kategori</label>
+                    <select name="cat" id="cat">
+                        <option value="0">-- Välj en kategori --</option>
+                        <option value="1">Nöje</option>
+                        <option value="2">Utbildning</option>
+                        <option value="3">Upplevelse</option>
+                    </select>
+                </div>
+                <input type="submit" id="submit" class="submitButton" value="Lägg till">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

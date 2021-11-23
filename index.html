@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <title>Event</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="navHeader">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="dropdownNav">
+            <ul>
+                <li><a href="#"><i>Hem</i></a></li>
+                <li><a href="event-list.html">Eventlista</a></li>
+                <li><a href="event-form.html">Lägg till event</a></li>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero"
+        style="background-image: 
+        url('https://images.unsplash.com/photo-1485634476346-5c642f4b6722?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80');">
+        <h1>Välkommen till RoligaEvent.se!</h1>
+    </div>
+
+    <div class="content-container">
+        <div class="content">
+            <h2>Populära event</h2>
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <img src="https://images.unsplash.com/photo-1507878866276-a947ef722fee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
+                        alt="Tomma stolar">
+                    <div class="card-body">
+                        <h3>Tom föreläsning</h3>
+                        <p>2021-11-27</p>
+                        <p>Har du någonsin velat stå på en föreläsningsscen utan någon som helst publik? Nu har du
+                            chansen
+                            att
+                            prova!</p>
+                        <p><b>Kategori:</b> Nöje</p>
+                        <div class="card-link-container">
+                            <a href="#" id="card-dropdown-link">Mer info<i class="fas fa-arrows-alt-v"></i></a>
+                            <a href="event-details.html">Till Eventet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-dropdown">
+                    <h4>Info</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum voluptates
+                        repellendus ducimus vel cum hic consectetur sed illum, rem voluptatum odit
+                        accusantium! Animi pariatur explicabo tempora natus! Delectus, ipsum dolorem.</p>
+                </div>
+            </div>
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                        alt="Ljusshow">
+                    <div class="card-body">
+                        <h3>Ljusshow</h3>
+                        <p>2021-12-28</p>
+                        <p>Missa inte denna ljusshow. Garanterad masshypnos!</p>
+                        <p>Kategori: Nöje</p>
+                        <div class="card-link-container">
+                            <a href="#" id="card-dropdown-link">Mer info<i class="fas fa-arrows-alt-v"></i></a>
+                            <a href="event-details.html">Eventets sida</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-dropdown">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem facilis laborum
+                        voluptas nobis tempora! Adipisci magnam accusamus aliquid. Tenetur ab, aliquam
+                        molestiae blanditiis dolore dolorem commodi corporis.</p>
+                </div>
+            </div>
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <img src="https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                        alt="Konstseminarium">
+                    <div class="card-body">
+                        <h3>Konstseminarium</h3>
+                        <p>2021-10-15</p>
+                        <p>Lär dig mer om konstens abstrakta värld. Just nu har vi en speciell konstkurs för att
+                            utveckla din känsla för konst.</p>
+                        <p>Kategori: Utbildning</p>
+                        <div class="card-link-container">
+                            <a href="#" id="card-dropdown-link">Mer info<i class="fas fa-arrows-alt-v"></i></a>
+                            <a href="event-details.html">Eventets sida</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-dropdown">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi quaerat
+                        dolorum eveniet consectetur non!</p>
+                </div>
+            </div>
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <img src="https://images.unsplash.com/photo-1533230570070-6016a20c2f2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                        alt="Fyrverkerier">
+                    <div class="card-body">
+                        <h3>Nyårsfirande</h3>
+                        <p>2021-12-31</p>
+                        <p>Kom på vårt exklusiva nyårsfirande. Vi utlovar god mat, bubbel och fyrverkerier. OBS! Sällskap ingår ej!</p>
+                        <p>Kategori: Nöje</p>
+                        <div class="card-link-container">
+                            <a href="#" id="card-dropdown-link">Mer info<i class="fas fa-arrows-alt-v"></i></a>
+                            <a href="event-details.html">Eventets sida</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-dropdown">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae sint incidunt
+                        accusamus aliquam? Sit esse voluptatibus accusamus perspiciatis nesciunt
+                        necessitatibus. Nisi corrupti omnis sequi hic quo nemo ullam provident quis unde
+                        perspiciatis modi recusandae voluptatibus dignissimos, pariatur officiis maiores
+                        iste adipisci, labore error corporis facilis.</p>
+                </div>
+            </div>
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                        alt="Luftballonger">
+                    <div class="card-body">
+                        <h3>Luftballonger</h3>
+                        <p>2022-06-17</p>
+                        <p>Har du som många andra alltid önskat flyga luftballong? Kom på vårt ballongtittarevent och önska lite till!</p>
+                        <p>Kategori: Upplevelse</p>
+                        <div class="card-link-container">
+                            <a href="#" id="card-dropdown-link">Mer info<i class="fas fa-arrows-alt-v"></i></a>
+                            <a href="event-details.html">Eventets sida</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-dropdown">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore magni
+                        ducimus quam aperiam reiciendis id reprehenderit, sequi perspiciatis voluptates.</p>
+                </div>
+            </div>
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <img src="https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1172&q=80"
+                        alt="Vinglas">
+                    <div class="card-body">
+                        <h3>Vinprovning</h3>
+                        <p>2022-02-14</p>
+                        <p>Ta med någon du gillar på en mindre exlusiv vinprovning med viner från världens alla
+                            hörn.</p>
+                        <p>Kategori: Nöje</p>
+                        <div class="card-link-container">
+                            <a href="#" id="card-dropdown-link">Mer info<i class="fas fa-arrows-alt-v"></i></a>
+                            <a href="event-details.html">Eventets sida</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-dropdown">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae sit blanditiis
+                        magni. Sunt consequatur unde perferendis fuga, fugiat atque officiis recusandae? Ea
+                        repudiandae ipsam veritatis dignissimos in omnis. Numquam, ab.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
